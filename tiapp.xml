@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>nl.peercode.actionbartest</id>
+    <name>ActionBarTest</name>
+    <version>1.0</version>
+    <publisher>markr</publisher>
+    <url>http://www.peercode.nl</url>
+    <description>not specified</description>
+    <copyright>2013 by markr</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>false</analytics>
+    <property name="ti.android.fastdev" type="bool">true</property>
+    <guid>4314e6fc-e26d-4797-bd4c-56771f96a7c9</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <tool-api-level>14</tool-api-level>
+        <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+            <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14"/>
+        </manifest>
+    </android>
+    <modules/>
+    <deployment-targets>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">false</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>3.1.0.v20130409124549</sdk-version>
+</ti:app>
